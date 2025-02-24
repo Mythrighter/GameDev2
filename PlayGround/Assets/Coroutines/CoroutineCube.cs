@@ -35,7 +35,7 @@ public class CoroutineCube : MonoBehaviour
             yield return null;
         }
 
-        yield break; //How to stop a Coroutine mid-routine.
+        //yield break; //How to stop a Coroutine mid-routine.
 
         //Step 2: Change color to red and wait for 2 seconds.
         GetComponent<MeshRenderer>().material.color = Color.red;
